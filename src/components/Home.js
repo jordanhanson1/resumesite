@@ -43,7 +43,7 @@ const Home = () => {
           strings={[
             "Computer Scientist",
             "Software Engineer",
-            "Life Long Learner"
+            "Avid Learner"
           ]}
           typeSpeed={40}
           backSpeed={60}

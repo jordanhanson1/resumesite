@@ -38,7 +38,7 @@ const Campus = ()=>{
                           
                           <CardMedia
                             component="img"
-                            alt="Giganetworks Logo"
+                            alt="ACM Logo"
                             height="140"
                             image={require("../assets/acm.jpg")}
                           />
@@ -104,7 +104,7 @@ const Campus = ()=>{
                           
                           <CardMedia
                             component="img"
-                            alt="Amex Logo"
+                            alt="Dance Marathon Logo"
                             height="140"
                             image={require("../assets/dm.jpeg")}
                           />
