@@ -41,8 +41,8 @@ const Home = () => {
       <Typography align='center' className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Computer Scientist",
             "Software Engineer",
+            "Computer Scientist",
             "Avid Learner"
           ]}
           typeSpeed={40}

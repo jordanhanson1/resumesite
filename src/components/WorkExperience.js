@@ -145,7 +145,7 @@ const WorkExperience = ()=>{
                             </Typography>
                             <Typography align='center' variant="body2" color="textSecondary">
                             Incoming Software Engineering Intern for American Express in Phoenix, Arizona. 
-                            Excited to learn and develop software for AMEX.
+                            Excited to learn and develop software for AMEX. Currently waiting on team placement.
                             </Typography>
                             <br></br>
                             <br></br>

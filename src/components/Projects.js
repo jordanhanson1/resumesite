@@ -140,8 +140,9 @@ const Projects = ({mode}) => {
                         Description
                         </Typography>
                         <Typography align='center' variant="body2" color="textSecondary">
-                        Developed a full stack mobile application with three other students in 36 hours, 
-                        resulting in 1st Overall.
+                        Developed a full stack mobile app with three other students for a UF Hackathon, resulting in 1st overall.
+                        Created Google Cloud functions to send text messages and implemented user authentication using phone number.
+
                         </Typography>
     
 
@@ -205,8 +206,9 @@ const Projects = ({mode}) => {
                         Description
                         </Typography>
                         <Typography align='center' variant="body2" color="textSecondary">
-                        Created a full-stack web app with — users resulting in — for Shands Children’s Hospital.
-                        The app is an assassins style game using React.js for the frontend and Node/Express API using Firebase Firestore and Google Cloud hosting.</Typography>
+                        Created a secret agent style game with 100+ users generating $1000+ for Shands Children Hospital.
+                        Architected a Node js backend that assigned and sent out emails with targets for each player every three days.
+                        Developed a front end with React.js that interacts with firebase and the backend to display targets and eliminate them with one other programmer.</Typography>
     
 
                          <CardActions style={{justifyContent: 'center'}}>

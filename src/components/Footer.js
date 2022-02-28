@@ -34,7 +34,7 @@ const Footer = () => {
             <a target="_blank" href="mailto: matthew.hanson.tech@gmail.com">
             <BottomNavigationAction label="Email" icon={<EmailIcon />} />
             </a>
-            <a href={pdf} target="_blank">
+            <a href="https://jordanhanson1.github.io/resume/" target="_blank">
             <BottomNavigationAction label="Resume" icon={<ArticleIcon />} />
             </a>
         </BottomNavigation>

@@ -142,7 +142,7 @@ const Campus = ()=>{
                             Description
                             </Typography>
                             <Typography align='center' variant="body2" color="textSecondary">
-                                Raised $2,700+ for Shands Children’s Hospital by reaching out to connections using social media and email.
+                                Raised $3,000+ for Shands Children’s Hospital by reaching out to connections using social media and email.
                                 Collaborating with a team to implement maintenance and content management for the Dance Marathon Website and iOS app using JavaScript, Swift, and PHP.
                             </Typography>
                         

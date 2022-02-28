@@ -69,6 +69,7 @@ export default function App() {
         
         <Navbar mode={mode==='dark'? true: false} changeMode={changeMode}></Navbar>
         
+        
         <Routes>
           <Route path="/" element={<Home></Home>}>
               
@@ -89,6 +90,7 @@ export default function App() {
           </Routes>
               <br></br> <br></br>
             <Footer></Footer>
+            
           </Router>
 
          
