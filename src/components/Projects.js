@@ -20,6 +20,8 @@ const Projects = ({mode}) => {
   const [flip1,setFlip1]=useState(false);
   const [flip2,setFlip2]=useState(false);
   const [flip3,setFlip3]=useState(false);
+  const [flip4,setFlip4]=useState(false);
+  const [flip5,setFlip5]=useState(false);
 
   
 
@@ -27,7 +29,7 @@ const Projects = ({mode}) => {
   return (
     <Box component="div" style={{height: "100%"}} >
         <Typography align={'center'} variant={'h3'}>Projects</Typography>
-      <Grid container justify="center">
+      <Grid container align="center" style={{justifyContent: 'center'}} justify="center">
         {/* Projects */}
           <Grid item xs={12} sm={8} md={4}>
           <ReactCardFlip isFlipped={flip1} flipDirection="vertical">
@@ -221,6 +223,134 @@ const Projects = ({mode}) => {
                     </CardActionArea>
                     <CardActions style={{justifyContent: 'center'}}>
                       <Button variant="contained" size="small" onClick={()=>setFlip3(!flip3)}>
+                        Click to Flip
+                      </Button>
+                    </CardActions>
+                  </Card>
+        </ReactCardFlip>
+        </Grid>
+        <Grid item xs={12} sm={8} md={4}>
+          <ReactCardFlip isFlipped={flip4} flipDirection="vertical">
+
+            {/* Card  Giga */}
+            <Card variant="outlined" style={{height:350,maxWidth:345, margin:"3rem auto"}} >
+                    <CardActionArea  >
+                      
+                      <CardMedia
+                        component="img"
+                        alt="MissionDM Logo"
+                        height="140"
+                        image={require("../assets/nutshell.png")}
+                      />
+                      <CardContent  >
+                        <Typography align='center' variant="h4" gutterBottom>
+                          Nutshell
+                        </Typography>
+                        <Typography align='center' variant="h6" color="textSecondary">
+                          Linux Shell
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                    <CardActions style={{justifyContent: 'center'}}>
+                   
+                      <Button target="_blank" href={"https://github.com/jordanhanson1/Nutshell"} size="small" color="primary">
+                        Github Link
+                      </Button>
+                      <Button variant="contained" size="small" onClick={()=>setFlip4(!flip4)}>
+                        Description
+                      </Button>
+                    
+                     
+                    </CardActions>
+                  </Card>
+
+                  {/* Card 2 Giga */}
+                  <Card variant="outlined" style={{height:350,maxWidth:345, margin:"3rem auto"}} >
+                    <CardActionArea  >
+                      
+                      <CardContent>
+                        <Typography align='center' variant="h5" gutterBottom>
+                        Description
+                        </Typography>
+                        <Typography align='center' variant="body2" color="textSecondary">
+                        The Nutshell is a command interpretor which uses Lex and Yacc (Flex and Bison) to interpret commands. 
+                        Features of the Nutshell include built in and non-built in commands, pipes, I/O redirection, wildcard matching, and environment variable expansion. 
+                        </Typography>
+    
+
+                         <CardActions style={{justifyContent: 'center'}}>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="Linux" color="info" size="small"  ></Chip>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="Lexx" color="info" size="small"  ></Chip>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="Yacc" color="info" size="small"  ></Chip>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="C" color="info" size="small"  ></Chip>
+                        </CardActions>
+                      </CardContent>
+                    </CardActionArea>
+                    <CardActions style={{justifyContent: 'center'}}>
+                      <Button variant="contained" size="small" onClick={()=>setFlip4(!flip4)}>
+                        Click to Flip
+                      </Button>
+                    </CardActions>
+                  </Card>
+        </ReactCardFlip>
+        </Grid>
+        <Grid item xs={12} sm={8} md={4}>
+          <ReactCardFlip isFlipped={flip5} flipDirection="vertical">
+
+            {/* Card  Giga */}
+            <Card variant="outlined" style={{height:350,maxWidth:345, margin:"3rem auto"}} >
+                    <CardActionArea  >
+                      
+                      <CardMedia
+                        component="img"
+                        alt="MissionDM Logo"
+                        height="140"
+                        image={require("../assets/socket.png")}
+                      />
+                      <CardContent  >
+                        <Typography align='center' variant="h4" gutterBottom>
+                          Socket Project
+                        </Typography>
+                        <Typography align='center' variant="h6" color="textSecondary">
+                          Client Server Sockets
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                    <CardActions style={{justifyContent: 'center'}}>
+                   
+                     
+                      <Button variant="contained" size="small" onClick={()=>setFlip5(!flip5)}>
+                        Description
+                      </Button>
+                    
+                     
+                    </CardActions>
+                  </Card>
+
+                  {/* Card 2 Giga */}
+                  <Card variant="outlined" style={{height:350,maxWidth:345, margin:"3rem auto"}} >
+                    <CardActionArea  >
+                      
+                      <CardContent>
+                        <Typography align='center' variant="h5" gutterBottom>
+                        Description
+                        </Typography>
+                        <Typography align='center' variant="body2" color="textSecondary">
+                        Created UDP and TCP sockets to exchange messages between a client and server.
+                        Had four commands: list all files in server directory, download all files in server directory using TCP, 
+                        download a specific file in server directory using UDP, and an exit command.
+                        </Typography>
+    
+
+                         <CardActions style={{justifyContent: 'center'}}>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="Python" color="info" size="small"  ></Chip>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="TCP" color="info" size="small"  ></Chip>
+                        <Chip  style={{justifyContent: 'center',margin:"0.2rem"}} label="UDP" color="info" size="small"  ></Chip>
+                        </CardActions>
+                      </CardContent>
+                    </CardActionArea>
+                    <CardActions style={{justifyContent: 'center'}}>
+                      <Button variant="contained" size="small" onClick={()=>setFlip5(!flip5)}>
                         Click to Flip
                       </Button>
                     </CardActions>

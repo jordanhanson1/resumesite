@@ -113,7 +113,7 @@ const Campus = ()=>{
                              UF Dance Marathon
                             </Typography>
                             <Typography align='center' variant="h6" color="textSecondary">
-                              Captain
+                              Tech Captain
                             </Typography>
                             <Typography align='center' variant="h8" color="textSecondary">
                               Fall 2020 to Summer 2022
